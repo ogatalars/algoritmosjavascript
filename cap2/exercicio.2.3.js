@@ -7,6 +7,7 @@ formulario.addEventListener("submit", (e) => {
   const precoProduto = Number(formulario.preco.value);
   const promocao = precoProduto * 0.5;
   const tresProdutos = precoProduto * 3 - promocao;
+  console.log(tresProdutos)
 
   produtoPromo.innerText = `${nomeProduto} - Promoção: leve 3 por R$ ${tresProdutos.toFixed(
     2
