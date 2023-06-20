@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo com condições 4.2</title>
+    <link rel="stylesheet" href="css4_2.css" />
+  </head>
+  <body>
+    <img
+      src="https://img.freepik.com/fotos-premium/balanco-de-peso-de-equilibrio-azul-3d-inclinando-se-para-o-lado-esquerdo-no-chao-em-ilustracao-3d-de-fundo-branco_394271-7879.jpg?w=2000"
+      alt="Balança de peso"
+    />
+    <h1>Programa cálculo do Peso ideal</h1>
+    <form>
+      <p>
+        Nome:
+        <input
+          type="text"
+          name="nome"
+          id="inNome"
+          size="20"
+          maxlength="30"
+          required
+        />
+      </p>
+      <p>
+        sexo:
+        <input
+          type="radio"
+          name="sexo"
+          id="inMasc"
+          value="masculino"
+          required
+        />
+        Masculino
+        <input type="radio" name="sexo" id="inFem" value="feminino" required />
+        Feminino
+      </p>
+      <p>
+        Altura:
+        <input type="number" min="0" id="inAltura" step="0.01" required />
+      </p>
+      <input type="submit" value="Calcular" />
+      <input type="reset" value="Limpar" />
+    </form>
+    <h3></h3>
+    <script src="js4_2.js"></script>
+  </body>
+</html>
