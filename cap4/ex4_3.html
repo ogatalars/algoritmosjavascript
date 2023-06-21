@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo de Switch</title>
+  </head>
+  <body>
+    <script>
+      const bairro = prompt("Bairro de entrega: ");
+      let taxaEntrega;
+      switch (bairro) {
+        case "Centro":
+          taxaEntrega = 5;
+          break;
+        case "Vila Nova":
+          taxaEntrega = 7;
+          break;
+        case "Vila Operária":
+          taxaEntrega = 10;
+          break;
+        default:
+          taxaEntrega = 15;
+      }
+    </script>
+  </body>
+</html>

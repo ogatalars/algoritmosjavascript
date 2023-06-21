@@ -19,3 +19,5 @@ form.addEventListener("submit", (e) => {
 form.addEventListener("reset", () => {
   resp.innerText = ""; // Limpa a resposta
 });
+
+// ternario -> const peso = 22 * Math.pow(altura, 2) : 21 * Math.pow(altura, 2);
