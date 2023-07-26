@@ -5,6 +5,10 @@ frm.addEventListener("submit", (e) => {
   e.preventDefault();
   let numChinchilas = Number(frm.numChin.value);
   const numAnos = Number(frm.numAnos.value);
+  if (numChinchilas < 2) {
+    alert("O número inicial de chinchilas deve ser 2.");
+    return;
+}
   for (let i = 1; i < numAnos; i++) {
     numChinchilas *= 3;
   }
