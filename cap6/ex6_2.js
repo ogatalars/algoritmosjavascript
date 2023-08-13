@@ -38,3 +38,4 @@ frm.addEventListener("submit", (e) => {
   frm.inNumero.value = "";
   frm.inNumero.focus();
 });
+// Esse monte de if poderia ser trocado por variaveis
